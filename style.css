@@ -235,3 +235,82 @@ input[type="text"] {
     margin-top: 5%;
     margin-left: 10px;
 }
+
+.updatebox {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    margin-left: 25%;
+}
+
+.updateboxwidth {
+    width: 800px;
+    height: 200px;
+    margin-left: 25%;
+    margin-top: 0%;
+
+    background-color: rgb(210, 243, 251);
+    text-align: center;
+
+}
+
+.subscribe {
+    background-color: transparent;
+    width: 600px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    margin: 100px auto;
+    display: table;
+    color: transparent;
+    border-radius: 8px;
+    margin-top: 10%;
+}
+
+.subscribe button {
+    width: 29%;
+    background-color: tomato;
+    border: none;
+    padding: 5px 10px;
+    height: 38px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+}
+
+.subscribe input[type="email"] {
+    width: 70%;
+    height: 38px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.subscribe p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+
+
+.footer {
+    margin-top: 10%;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+
+}
+
+.footerword {
+    font-size: 40px;
+    margin-top: 20%;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    ;
+}
